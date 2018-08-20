@@ -14,5 +14,3 @@ def results(request, question_id):
 
 def vote(request, question_id):
     return HttpResponse("You're voting on the question %s." % question_id)
-
-    

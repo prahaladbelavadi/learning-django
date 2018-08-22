@@ -1,6 +1,8 @@
 
 # Learning Django
 
+
+
 # Inital generator notes:
 - `django-admin startproject mysite` creates templates
 - `python manage.py makemigrations polls` migtrate app; basically update django about changes to model
@@ -11,6 +13,13 @@
   - username: admin
   - email: admin@website.com
   - password: password123
+
+
+### Not expected behavior
+- continue testing from [here](https://django.readthedocs.io/en/1.11.x/intro/tutorial05.html)
+- [repos to compare against](https://www.google.co.in/search?newwindow=1&ei=wNF9W5TnHMy_rQGY16uoBg&q=first+django+app+github+choices+not+displaying&oq=first+django+app+github+choices+not+displa&gs_l=psy-ab.3.0.33i21k1j33i160k1l2.142780.146685.0.148348.19.19.0.0.0.0.179.1989.11j8.19.0....0...1c.1.64.psy-ab..0.18.1907...0i22i30k1j33i22i29i30k1.0.40pE1HtJnyc)
+
+
 
 ## Setup:
 - `cd` into the directory and run `python manage.py runserver`
